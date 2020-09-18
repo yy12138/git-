@@ -46,4 +46,9 @@ git commit -amend
 git 克隆分支
 git clone -b 分支名 仓库地址
 
+git 一个分支合并到另一个分支上(从develop拉取代码合并到develop_ht)
+git checkout develop_ht
+git merge --no-edit develop
+ 
+
 借鉴于https://segmentfault.com/a/1190000020023683
