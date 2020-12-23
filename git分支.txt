@@ -52,6 +52,11 @@ git pull
 git checkout master
 git merge dev              #合并dev分支到master上
 git push origin master     #将代码推到master上
+
+git 合并某个节点的提交到另一个分支
+git checkout develop
+git cherry-pick <commitHash>
+git push
  
 
 借鉴于https://segmentfault.com/a/1190000020023683， https://www.cnblogs.com/lovele-/p/10400147.html
