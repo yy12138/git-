@@ -60,3 +60,9 @@ git push
  
 
 借鉴于https://segmentfault.com/a/1190000020023683， https://www.cnblogs.com/lovele-/p/10400147.html
+
+git项目迁移
+git clone --mirror <老仓库的git地址>
+cd <克隆下来的项目目录>
+git remote set-url origin <新的git项目的地址>
+git push -f origin
